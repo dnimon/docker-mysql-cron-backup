@@ -3,7 +3,7 @@ LABEL maintainer "Fco. Javier Delgado del Hoyo <frandelhoyo@gmail.com>"
 
 RUN apk add --update bash mysql-client gzip openssl && rm -rf /var/cache/apk/*
 
-ARG OS=alpine-linux
+ARG OS=linux
 ARG ARCH=armhf
 ARG DOCKERIZE_VERSION=v0.6.1
 
